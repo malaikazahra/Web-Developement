@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SportEase - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.7);
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 0;
+    }
+    nav {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    nav .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    nav ul li a:hover {
+      color: #f0c330;
+    }
+    .hero {
+      position: relative;
+      
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+    .hero a {
+      padding: 12px 25px;
+      background: #f0c330;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .hero a:hover {
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <nav>
+    <div class="logo">SportEase</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.php">Shop</a></li>
+      <li><a href="booot.html">About </a></li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <h1>Unleash the Athlete in You</h1>
+    <p>Experience premium gear, apparel, and team spirit – all in one place. Football, cricket, and beyond!</p>
+    <a href="product.php">Shop Now</a>
+  </div>
+</body>
+</html>

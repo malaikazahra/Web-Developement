@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - SportEase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            padding-top: 56px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .team-header {
+            background-color: #212529;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .team-member-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+        
+        .team-member-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .member-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .member-info {
+            padding: 20px;
+            background: white;
+        }
+        
+        .member-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .member-position {
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .social-links a {
+            color: #212529;
+            font-size: 20px;
+        }
+        
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 30px 0;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SportEase</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booot.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Header -->
+    <header class="team-header">
+        <div class="container">
+            <h1 class="display-4">Meet Our Team</h1>
+            <p class="lead">The passionate people behind SportEase</p>
+        </div>
+    </header>
+
+    <!-- Team Members -->
+    <div class="container">
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-md-4">
+                <div class="team-member-card">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team Member" class="member-img">
+                    <div class="member-info">
+                        <h3 class="member-name">John Smith</h3>
+                        <p class="member-position">CEO & Founder</p>
+                        <p>With over 15 years in the sports industry, John founded SportEase to revolutionize cricket equipment.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Member 2 -->
+            <div class="col-md-4">
+                <div class="team-member-card">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team Member" class="member-img">
+                    <div class="member-info">
+                        <h3 class="member-name">Sarah Johnson</h3>
+                        <p class="member-position">Head of Product</p>
+                        <p>Former professional cricketer who ensures all our products meet professional standards.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Member 3 -->
+            <div class="col-md-4">
+                <div class="team-member-card">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Team Member" class="member-img">
+                    <div class="member-info">
+                        <h3 class="member-name">Michael Chen</h3>
+                        <p class="member-position">Marketing Director</p>
+                        <p>Creative mind behind our brand campaigns and customer engagement strategies.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Member 4 -->
+            <div class="col-md-4">
+                <div class="team-member-card">
+                    <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Team Member" class="member-img">
+                    <div class="member-info">
+                        <h3 class="member-name">Emma Wilson</h3>
+                        <p class="member-position">Customer Support</p>
+                        <p>Dedicated to ensuring every customer has an exceptional experience with SportEase.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Member 5 -->
+            <div class="col-md-4">
+                <div class="team-member-card">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Team Member" class="member-img">
+                    <div class="member-info">
+                        <h3 class="member-name">David Brown</h3>
+                        <p class="member-position">Lead Designer</p>
+                        <p>Combines aesthetics with functionality to create visually appealing and practical sports gear.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Member 6 -->
+            <div class="col-md-4">
+                <div class="team-member-card">
+                    <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Team Member" class="member-img">
+                    <div class="member-info">
+                        <h3 class="member-name">Priya Patel</h3>
+                        <p class="member-position">Logistics Manager</p>
+                        <p>Ensures our products reach customers quickly and efficiently worldwide.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About SportEase</h5>
+                    <p>Providing premium cricket equipment since 2015. Our mission is to enhance your game with quality gear.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="product.html" class="text-white">Shop</a></li>
+                        <li><a href="team.html" class="text-white">Our Team</a></li>
+                        <li><a href="booot.html" class="text-white">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <address>
+                        123 Sports Avenue<br>
+                        Cricket City, CC 12345<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                <p class="mb-0">© 2025 SportEase. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Font Awesome (for social icons) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
